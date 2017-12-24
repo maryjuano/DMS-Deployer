@@ -1,0 +1,1637 @@
+<importexportxml start="636410974474035981" stop="636410977004053074" progress="24.5337159253945" processed="true">
+  <solutionManifests>
+    <solutionManifest languagecode="1033" id="GSC_Configuration_imp_holding" LocalizedName="GSC_Configuration" processed="true">
+      <UniqueName>GSC_Configuration_imp_holding</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="GSC_Configuration" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="This solution contains all the entities, global option sets, web resources, etc. for DMS." languagecode="1033" />
+      </Descriptions>
+      <Version>0.8.28.170915</Version>
+      <Managed>0</Managed>
+      <Publisher>
+        <UniqueName>gurangosoftwarecorporation</UniqueName>
+        <LocalizedNames>
+          <LocalizedName description="gurangosoftwarecorporation" languagecode="1033" />
+        </LocalizedNames>
+        <Descriptions />
+        <EMailAddress />
+        <SupportingWebsiteUrl />
+        <Addresses>
+          <Address>
+            <City />
+            <Country />
+            <Line1 />
+            <Line2 />
+            <PostalCode />
+            <StateOrProvince />
+            <Telephone1 />
+          </Address>
+        </Addresses>
+      </Publisher>
+      <results />
+      <result result="success" errorcode="0" errortext="" datetime="10:37:35.16" datetimeticks="636410686551640318" />
+    </solutionManifest>
+  </solutionManifests>
+  <upgradeSolutionPackageInformation>
+    <upgradeRequired>1</upgradeRequired>
+    <upgradeValid>1</upgradeValid>
+    <fileVersion>7.0.0.3543</fileVersion>
+    <currentVersion>7.0.0.3543</currentVersion>
+    <fileSku>OnPremise</fileSku>
+    <currentSku>OnPremise</currentSku>
+  </upgradeSolutionPackageInformation>
+  <entities>
+    <entity LocalizedName="Financing Scheme" OriginalName="Financing Scheme" Description="" id="gsc_cmn_FinancingScheme" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:15.34" datetimeticks="636410686953417868" />
+    </entity>
+    <entity LocalizedName="zTBD_Inventory Count" OriginalName="zTBD_Inventory Count" Description="" id="gsc_iv_InventoryCount" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:19.81" datetimeticks="636410687598105026" />
+    </entity>
+    <entity LocalizedName="ZTBD_Monthly Amortization" OriginalName="ZTBD_Monthly Amortization" Description="" id="gsc_sls_MonthlyAmortization" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:15.95" datetimeticks="636410688159512720" />
+    </entity>
+    <entity LocalizedName="Invoice Discount" OriginalName="Invoice Discount" Description="" id="gsc_cmn_InvoiceDiscount" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:28.16" datetimeticks="636410687081667122" />
+    </entity>
+    <entity LocalizedName="Entity Permission" OriginalName="Entity Permission" Description="" id="adx_entitypermission" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:37:56.64" datetimeticks="636410686766437283" />
+    </entity>
+    <entity LocalizedName="Order Accessory" OriginalName="Order Accessory" Description="" id="gsc_sls_OrderAccessory" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:18.45" datetimeticks="636410688184530826" />
+    </entity>
+    <entity LocalizedName="Inventory" OriginalName="Inventory" Description="" id="gsc_iv_Inventory" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:18.65" datetimeticks="636410687586537272" />
+    </entity>
+    <entity LocalizedName="Bank" OriginalName="Bank" Description="" id="gsc_sls_Bank" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:52.20" datetimeticks="636410687922011001" />
+    </entity>
+    <entity LocalizedName="Accreditation" OriginalName="Accreditation" Description="" id="gsc_cmn_Accreditation" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:02.65" datetimeticks="636410686826571194" />
+    </entity>
+    <entity LocalizedName="PO Type Parts" OriginalName="PO Type Parts" Description="" id="gsc_svc_POTypeParts" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:41:11.48" datetimeticks="636410688714883485" />
+    </entity>
+    <entity LocalizedName="Quote Charge" OriginalName="Quote Charge" Description="" id="gsc_cmn_QuoteCharge" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:43.14" datetimeticks="636410687231445813" />
+    </entity>
+    <entity LocalizedName="Survey Questions Setup" OriginalName="Survey Questions Setup" Description="" id="gsc_cmn_SurveyQuestionsSetup" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:59.55" datetimeticks="636410687395526941" />
+    </entity>
+    <entity LocalizedName="Vehicle and Item Catalog" OriginalName="Product" Description="Information about products and their pricing information." id="Product" processed="true">
+      <result result="failure" errorcode="0x80041A06" errortext="Attribute gsc_safetystock is a String, but a Integer type was specified." datetime="10:41:40.38" datetimeticks="636410689003893119" />
+    </entity>
+    <entity LocalizedName="Quote Monthly Amortization" OriginalName="Quote Monthly Amortization" Description="" id="gsc_sls_QuoteMonthlyAmortization" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:30.02" datetimeticks="636410688300294152" />
+    </entity>
+    <entity LocalizedName="Sales Document" OriginalName="Sales Document" Description="" id="gsc_sls_salesdocument" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:32.81" datetimeticks="636410688328186931" />
+    </entity>
+    <entity LocalizedName="Invoiced Vehicle" OriginalName="Invoiced Vehicle" Description="" id="gsc_iv_InvoicedVehicle" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:23.30" datetimeticks="636410687633083808" />
+    </entity>
+    <entity LocalizedName="Other Vehicle Owned" OriginalName="Other Vehicle Owned" Description="" id="gsc_cmn_OtherVehicleOwned" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:32.40" datetimeticks="636410687124056693" />
+    </entity>
+    <entity LocalizedName="Vehicle Post-Delivery Monitoring" OriginalName="Vehicle Post-Delivery Monitoring" Description="" id="gsc_sls_VehiclePostDeliveryMonitoring" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:46.63" datetimeticks="636410688466373504" />
+    </entity>
+    <entity LocalizedName="Invoice Accessory" OriginalName="Invoice Accessory" Description="" id="gsc_sls_InvoiceAccessory" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:11.56" datetimeticks="636410688115618490" />
+    </entity>
+    <entity LocalizedName="Quote Discount" OriginalName="Quote Discount" Description="" id="gsc_cmn_QuoteDiscount" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:45.64" datetimeticks="636410687256477905" />
+    </entity>
+    <entity LocalizedName="Lead Source" OriginalName="Lead Source" Description="" id="gsc_sls_leadsource" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:14.89" datetimeticks="636410688148989549" />
+    </entity>
+    <entity LocalizedName="General Vehicle Data" OriginalName="General Vehicle Data" Description="" id="gsc_sls_gvd" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:08.36" datetimeticks="636410688083642662" />
+    </entity>
+    <entity LocalizedName="City" OriginalName="City" Description="" id="gsc_cmn_City" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:09.28" datetimeticks="636410686892839119" />
+    </entity>
+    <entity LocalizedName="Prospecting Activity" OriginalName="Prospecting Activity" Description="" id="gsc_sls_ProspectingActivity" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:26.70" datetimeticks="636410688267091057" />
+    </entity>
+    <entity LocalizedName="Order Product" OriginalName="Order Product" Description="" id="SalesOrderDetail" processed="false">
+    </entity>
+    <entity LocalizedName="Vehicle Count Schedule Detail" OriginalName="Vehicle Count Schedule Detail" Description="" id="gsc_iv_VehicleCountScheduleDetail" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:35.61" datetimeticks="636410687756135707" />
+    </entity>
+    <entity LocalizedName="Vehicle Claim" OriginalName="Vehicle Claim" Description="" id="gsc_sls_VehicleClaim" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:41.66" datetimeticks="636410688416635034" />
+    </entity>
+    <entity LocalizedName="Receiving Transaction" OriginalName="Receiving Transaction" Description="" id="gsc_cmn_ReceivingTransaction" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:49.66" datetimeticks="636410687296606979" />
+    </entity>
+    <entity LocalizedName="Vehicle Count Schedule Filter" OriginalName="Vehicle Count Schedule Filter" Description="" id="gsc_iv_VehicleCountScheduleFilter" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:36.48" datetimeticks="636410687764897694" />
+    </entity>
+    <entity LocalizedName="Region" OriginalName="Region" Description="" id="gsc_cmn_Region" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:53.05" datetimeticks="636410687330585691" />
+    </entity>
+    <entity LocalizedName="Invoice Requirement Checklist" OriginalName="Invoice Requirement Checklist" Description="" id="gsc_sls_InvoiceRequirementChecklist" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:13.78" datetimeticks="636410688137899427" />
+    </entity>
+    <entity LocalizedName="zTBD_Purchase Order Approval" OriginalName="Purchase Order Approval" Description="" id="gsc_svc_purchaseorderapproval" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:41:17.41" datetimeticks="636410688774180182" />
+    </entity>
+    <entity LocalizedName="Vehicle In-Transit Transfer Receiving Checklist" OriginalName="Vehicle In-Transit Transfer Receiving Checklist" Description="" id="gsc_iv_VehicleInTransitReceivingChecklist" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:37.45" datetimeticks="636410687774584591" />
+    </entity>
+    <entity LocalizedName="Return Transaction" OriginalName="Return Transaction" Description="" id="gsc_cmn_ReturnTransaction" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:54.46" datetimeticks="636410687344663527" />
+    </entity>
+    <entity LocalizedName="Unit of Measure" OriginalName="Unit of Measure" Description="" id="gsc_cmn_UnitOfMeasure" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:07.00" datetimeticks="636410687470000221" />
+    </entity>
+    <entity LocalizedName="Sales Order" OriginalName="Order" Description="Quote that has been accepted." id="SalesOrder" processed="false">
+    </entity>
+    <entity LocalizedName="Order Coverage Available" OriginalName="Order Coverage Available" Description="" id="gsc_cmn_OrderCoverageAvailable" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:31.53" datetimeticks="636410687115345639" />
+    </entity>
+    <entity LocalizedName="Province" OriginalName="Province" Description="" id="gsc_cmn_Province" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:36.00" datetimeticks="636410687160075837" />
+    </entity>
+    <entity LocalizedName="Charge Item" OriginalName="Charge Item" Description="" id="gsc_cmn_ChargesItem" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:08.28" datetimeticks="636410686882811876" />
+    </entity>
+    <entity LocalizedName="Vehicle Sales Return" OriginalName="Vehicle Sales Return" Description="" id="gsc_sls_VehicleSalesReturn" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:48.96" datetimeticks="636410688489658611" />
+    </entity>
+    <entity LocalizedName="Product Relationship" OriginalName="Product Substitute" Description="Information about the selling relationship between two products, including the relationship type, such as up-sell, cross-sell, substitute, or accessory." id="ProductSubstitute" processed="false">
+    </entity>
+    <entity LocalizedName="Contact" OriginalName="Contact" Description="Person with whom a business unit has a relationship, such as customer, supplier, and colleague." id="Contact" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:01.13" datetimeticks="636410686811316389" />
+    </entity>
+    <entity LocalizedName="Financing Scheme Details" OriginalName="Financing Scheme Details" Description="" id="gsc_cmn_FinancingSchemeDetails" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:16.72" datetimeticks="636410686967268978" />
+    </entity>
+    <entity LocalizedName="Order Planning" OriginalName="Order Planning" Description="" id="gsc_sls_OrderPlanning" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:22.60" datetimeticks="636410688226086662" />
+    </entity>
+    <entity LocalizedName="Receiving Transaction Component Checklist" OriginalName="Receiving Transaction Component Checklist" Description="" id="gsc_cmn_ReceivingTransactionChecklist" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:50.62" datetimeticks="636410687306212294" />
+    </entity>
+    <entity LocalizedName="Quote Coverage Available" OriginalName="Quote Coverage Available" Description="" id="gsc_cmn_QuoteCoverageAvailable" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:44.31" datetimeticks="636410687243176272" />
+    </entity>
+    <entity LocalizedName="Vehicle Transfer Details" OriginalName="Vehicle Transfer Details" Description="" id="gsc_iv_VehicleTransferDetails" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:46.67" datetimeticks="636410687866703630" />
+    </entity>
+    <entity LocalizedName="Site/Warehouse" OriginalName="Site/Warehouse" Description="" id="gsc_iv_Site" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:27.59" datetimeticks="636410687675951900" />
+    </entity>
+    <entity LocalizedName="Committed Firm Order Inquiry" OriginalName="Committed Firm Order" Description="" id="gsc_sls_CommittedFirmOrder" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:58.21" datetimeticks="636410687982155162" />
+    </entity>
+    <entity LocalizedName="Invoice Cab Chassis" OriginalName="Invoice Cab Chassis" Description="" id="gsc_invoicecabchassis" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:13.47" datetimeticks="636410687534713285" />
+    </entity>
+    <entity LocalizedName="Purchase Order Approval" OriginalName="Purchase Order Approval" Description="" id="gsc_cmn_purchaseorderapproval" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:40.74" datetimeticks="636410687207427155" />
+    </entity>
+    <entity LocalizedName="Sales Area" OriginalName="Sales Area" Description="" id="gsc_cmn_SalesArea" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:56.92" datetimeticks="636410687369238427" />
+    </entity>
+    <entity LocalizedName="zTBD_Purchase Order Approval" OriginalName="Purchase Order Approval" Description="" id="gsc_purchaseorderapproval" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:48.79" datetimeticks="636410687887922021" />
+    </entity>
+    <entity LocalizedName="Incident Report" OriginalName="Incident Report" Description="" id="gsc_cmn_IncidentReport" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:21.73" datetimeticks="636410687017311479" />
+    </entity>
+    <entity LocalizedName="Financing Term" OriginalName="Financing Term" Description="" id="gsc_sls_FinancingTerm" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:07.30" datetimeticks="636410688073012739" />
+    </entity>
+    <entity LocalizedName="Prospect Inquiry" OriginalName="Lead" Description="Prospect or potential sales opportunity. Leads are converted into accounts, contacts, or opportunities when they are qualified. Otherwise, they are deleted or archived." id="Lead" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:41:35.67" datetimeticks="636410688956741392" />
+    </entity>
+    <entity LocalizedName="zTBD_Bank" OriginalName="zTBD_Bank" Description="" id="gsc_cmn_Bank" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:06.21" datetimeticks="636410686862121811" />
+    </entity>
+    <entity LocalizedName="ID Sequence" OriginalName="ID Sequence" Description="" id="gsc_cmn_IDSequence" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:20.79" datetimeticks="636410687007974216" />
+    </entity>
+    <entity LocalizedName="Requirement Checklist" OriginalName="Requirement Checklist" Description="" id="gsc_sls_RequirementChecklist" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:31.44" datetimeticks="636410688314454874" />
+    </entity>
+    <entity LocalizedName="Invoice" OriginalName="Invoice" Description="Order that has been billed." id="Invoice" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:41:33.11" datetimeticks="636410688931166004" />
+    </entity>
+    <entity LocalizedName="Training" OriginalName="Training" Description="" id="gsc_cmn_Training" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:04.39" datetimeticks="636410687443996692" />
+    </entity>
+    <entity LocalizedName="Discount List" OriginalName="Discount List" Description="" id="DiscountType" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:01.16" datetimeticks="636410686811630583" />
+    </entity>
+    <entity LocalizedName="Price List Item" OriginalName="Price List Item" Description="" id="ProductPriceLevel" processed="false">
+    </entity>
+    <entity LocalizedName="Return Transaction Detail" OriginalName="Return Transaction Detail" Description="" id="gsc_cmn_ReturnTransactionDetails" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:55.79" datetimeticks="636410687357955050" />
+    </entity>
+    <entity LocalizedName="zTBC_City" OriginalName="zTBC_City" Description="City" id="gsc_syscity" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:41:22.99" datetimeticks="636410688829918537" />
+    </entity>
+    <entity LocalizedName="Vehicle In-Transit Transfer Receiving" OriginalName="Vehicle In-Transit Transfer Receiving" Description="" id="gsc_iv_VehicleInTransitTransferReceiving" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:42.89" datetimeticks="636410687828960358" />
+    </entity>
+    <entity LocalizedName="Account" OriginalName="Account" Description="Business that represents a customer or potential customer. The company that is billed in business transactions." id="Account" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:37:55.94" datetimeticks="636410686759461734" />
+    </entity>
+    <entity LocalizedName="Withholding Tax" OriginalName="Withholding Tax" Description="" id="gsc_cmn_WithholdingTax" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:11.21" datetimeticks="636410687512181664" />
+    </entity>
+    <entity LocalizedName="Vehicle In-Transit Transfer" OriginalName="Vehicle In-Transit Transfer" Description="" id="gsc_iv_VehicleInTransitTransfer" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:40.24" datetimeticks="636410687802443137" />
+    </entity>
+    <entity LocalizedName="Position" OriginalName="Position" Description="" id="gsc_cmn_Position" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:33.64" datetimeticks="636410687136470051" />
+    </entity>
+    <entity LocalizedName="PO Type" OriginalName="PO Type" Description="" id="gsc_svc_POType" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:41:07.13" datetimeticks="636410688671357830" />
+    </entity>
+    <entity LocalizedName="Extended Price List Item" OriginalName="Extended Price List Item" Description="" id="gsc_cmn_ExtendedPriceListItem" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:14.33" datetimeticks="636410686943331221" />
+    </entity>
+    <entity LocalizedName="Vehicle Cab Chassis" OriginalName="Vehicle Cab Chassis" Description="" id="gsc_sls_VehicleCabChassis" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:39.86" datetimeticks="636410688398664286" />
+    </entity>
+    <entity LocalizedName="Insurance Coverage" OriginalName="Insurance Coverage" Description="" id="gsc_cmn_InsuranceCoverage" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:24.06" datetimeticks="636410687040695762" />
+    </entity>
+    <entity LocalizedName="Survey Setup" OriginalName="Survey Setup" Description="" id="gsc_cmn_SurveySetup" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:00.57" datetimeticks="636410687405740581" />
+    </entity>
+    <entity LocalizedName="Invoice Coverage Available" OriginalName="Invoice Coverage Available" Description="" id="gsc_cmn_InvoiceCoverageAvailable" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:26.42" datetimeticks="636410687064269856" />
+    </entity>
+    <entity LocalizedName="zTBD_Site" OriginalName="zTBD_Site" Description="" id="gsc_svc_site" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:41:22.08" datetimeticks="636410688820820032" />
+    </entity>
+    <entity LocalizedName="Order Monthly Amortization" OriginalName="Order Monthly Amortization" Description="" id="gsc_sls_OrderMonthlyAmortization" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:20.61" datetimeticks="636410688206191369" />
+    </entity>
+    <entity LocalizedName="Tax Maintenance" OriginalName="Tax Maintenance" Description="" id="gsc_cmn_TaxMaintenance" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:03.22" datetimeticks="636410687432284329" />
+    </entity>
+    <entity LocalizedName="Note" OriginalName="Note" Description="" id="Annotation" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:37:57.50" datetimeticks="636410686775008634" />
+    </entity>
+    <entity LocalizedName="Document Checklist" OriginalName="Document Checklist" Description="" id="gsc_sls_DocumentChecklist" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:06.39" datetimeticks="636410688063926865" />
+    </entity>
+    <entity LocalizedName="zTBD_Bin" OriginalName="zTBD_Bin" Description="" id="gsc_svc_bin" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:50.66" datetimeticks="636410688506646705" />
+    </entity>
+    <entity LocalizedName="PO Suffix" OriginalName="PO Suffix" Description="" id="gsc_svc_POSuffix" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:41:04.67" datetimeticks="636410688646766270" />
+    </entity>
+    <entity LocalizedName="Occupation" OriginalName="Occupation" Description="" id="gsc_cmn_occupation" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:29.20" datetimeticks="636410687092023390" />
+    </entity>
+    <entity LocalizedName="Vehicle Type Id" OriginalName="Vehicle Type" Description="" id="gsc_iv_VehicleType" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:47.74" datetimeticks="636410687877495791" />
+    </entity>
+    <entity LocalizedName="User" OriginalName="User" Description="" id="SystemUser" processed="false">
+    </entity>
+    <entity LocalizedName="Quote Accessory" OriginalName="Quote Accessory" Description="" id="gsc_sls_QuoteAccessory" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:27.94" datetimeticks="636410688279421562" />
+    </entity>
+    <entity LocalizedName="Department" OriginalName="Department" Description="" id="gsc_cmn_Department" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:12.69" datetimeticks="636410686926925192" />
+    </entity>
+    <entity LocalizedName="Currency" OriginalName="" Description="" id="TransactionCurrency" processed="false">
+    </entity>
+    <entity LocalizedName="Order Charge" OriginalName="Order Charge" Description="" id="gsc_cmn_OrderCharge" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:30.47" datetimeticks="636410687104777141" />
+    </entity>
+    <entity LocalizedName="Approver Details" OriginalName="Approver Details" Description="" id="gsc_cmn_Approver" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:04.20" datetimeticks="636410686842045159" />
+    </entity>
+    <entity LocalizedName="GVD Report Detail" OriginalName="GVD Report Detail" Description="" id="gsc_sls_gvdreportdetail" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:10.45" datetimeticks="636410688104574104" />
+    </entity>
+    <entity LocalizedName="Part Vendor" OriginalName="Part Vendor" Description="" id="gsc_svc_partvendor" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:41:02.70" datetimeticks="636410688627040543" />
+    </entity>
+    <entity LocalizedName="Vehicle Component Checklist" OriginalName="Vehicle Component Checklist" Description="" id="gsc_sls_VehicleComponentChecklist" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:45.00" datetimeticks="636410688450066551" />
+    </entity>
+    <entity LocalizedName="Cash Receipt" OriginalName="Cash Receipt" Description="" id="gsc_sls_cashreceipt" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:55.34" datetimeticks="636410687953413206" />
+    </entity>
+    <entity LocalizedName="Web File" OriginalName="Web File" Description="Storage of files used in the web Portals." id="Adx_webfile" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:37:57.07" datetimeticks="636410686770734654" />
+    </entity>
+    <entity LocalizedName="Purchase Order" OriginalName="Purchase Order" Description="" id="gsc_cmn_PurchaseOrder" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:39.63" datetimeticks="636410687196308291" />
+    </entity>
+    <entity LocalizedName="Shipping Claim Detail" OriginalName="Shipping Claim Detail" Description="" id="gsc_sls_ShippingClaimDetail" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:35.16" datetimeticks="636410688351628221" />
+    </entity>
+    <entity LocalizedName="ICC" OriginalName="ICC" Description="" id="gsc_svc_icc" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:51.64" datetimeticks="636410688516460962" />
+    </entity>
+    <entity LocalizedName="Reason" OriginalName="Reason" Description="" id="gsc_cmn_Reason" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:47.06" datetimeticks="636410687270662467" />
+    </entity>
+    <entity LocalizedName="Vehicle Color" OriginalName="Vehicle Color" Description="" id="gsc_cmn_VehicleColor" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:08.41" datetimeticks="636410687484193564" />
+    </entity>
+    <entity LocalizedName="Unit" OriginalName="Unit" Description="" id="UoM" processed="false">
+    </entity>
+    <entity LocalizedName="Transacted Vehicle" OriginalName="Transacted Vehicle" Description="" id="gsc_cmn_TransactedVehicle" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:05.90" datetimeticks="636410687459037071" />
+    </entity>
+    <entity LocalizedName="Chattel Fee" OriginalName="Chattel Fee" Description="" id="gsc_sls_ChattelFee" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:56.42" datetimeticks="636410687964223558" />
+    </entity>
+    <entity LocalizedName="Series" OriginalName="Series" Description="" id="gsc_svc_series" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:41:20.86" datetimeticks="636410688808606472" />
+    </entity>
+    <entity LocalizedName="Order Cab Chassis" OriginalName="Order Cab Chassis" Description="" id="gsc_sls_OrderCabChassis" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:19.58" datetimeticks="636410688195848483" />
+    </entity>
+    <entity LocalizedName="Apply Sales Document" OriginalName="Apply Sales Document" Description="" id="gsc_sls_applysalesdocument" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:51.21" datetimeticks="636410687912168048" />
+    </entity>
+    <entity LocalizedName="Committed Firm Order Inquiry Detail" OriginalName="Committed Firm Order Detail" Description="" id="gsc_sls_CommittedFirmOrderDetail" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:59.62" datetimeticks="636410687996235409" />
+    </entity>
+    <entity LocalizedName="Vehicle In-Transit Transfer Receiving Detail" OriginalName="Vehicle In-Transit Transfer Receiving Detail" Description="" id="gsc_iv_VehicleInTransitReceivingDetail" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:38.60" datetimeticks="636410687786001499" />
+    </entity>
+    <entity LocalizedName="zTBD_GVD Rerport" OriginalName="zTBD_GVD Rerport" Description="" id="gsc_gvdrerport" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:12.27" datetimeticks="636410687522737330" />
+    </entity>
+    <entity LocalizedName="Document" OriginalName="Document" Description="" id="gsc_sls_Document" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:04.90" datetimeticks="636410688049007012" />
+    </entity>
+    <entity LocalizedName="zTBD_Purchase Order" OriginalName="zTBD_Purchase Order" Description="" id="gsc_svc_PurchaseOrder" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:41:16.22" datetimeticks="636410688762247592" />
+    </entity>
+    <entity LocalizedName="Activity" OriginalName="Activity" Description="" id="ActivityPointer" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:37:55.96" datetimeticks="636410686759618212" />
+    </entity>
+    <entity LocalizedName="Contract Template" OriginalName="Contract Template" Description="" id="ContractTemplate" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:01.14" datetimeticks="636410686811472622" />
+    </entity>
+    <entity LocalizedName="Vehicle Component" OriginalName="Vehicle Component" Description="" id="gsc_sls_VehicleComponent" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:43.79" datetimeticks="636410688437925798" />
+    </entity>
+    <entity LocalizedName="Site" OriginalName="Site" Description="" id="Site" processed="false">
+    </entity>
+    <entity LocalizedName="Quote Product" OriginalName="Quote Product" Description="Product line item in a quote. The details include such information as product ID, description, quantity, and cost." id="QuoteDetail" processed="false">
+    </entity>
+    <entity LocalizedName="Vehicle In-Transit Transfer Detail" OriginalName="Vehicle In-Transit Transfer Detail" Description="" id="gsc_iv_VehicleInTransitTransferDetail" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:41.47" datetimeticks="636410687814722268" />
+    </entity>
+    <entity LocalizedName="Quote Cab Chassis" OriginalName="Quote Cab Chassis" Description="" id="gsc_sls_QuoteCabChassis" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:29.02" datetimeticks="636410688290203504" />
+    </entity>
+    <entity LocalizedName="Opportunity Activity" OriginalName="Opportunity Activity" Description="" id="gsc_sls_OpportunityActivity" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:17.09" datetimeticks="636410688170970201" />
+    </entity>
+    <entity LocalizedName="Committed Firm Order Quantity Detail" OriginalName="Committed Firm Order Quantity Detail" Description="" id="gsc_sls_CommittedFirmOrderQuantityDetail" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:03.72" datetimeticks="636410688037238568" />
+    </entity>
+    <entity LocalizedName="Quote" OriginalName="Quote" Description="Formal offer for products and/or services, proposed at specific prices and related payment terms, which is sent to a prospective customer." id="Quote" processed="false">
+    </entity>
+    <entity LocalizedName="Opportunity" OriginalName="Opportunity" Description="Potential revenue-generating event, or sale to an account, which needs to be tracked through a sales process to completion." id="Opportunity" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:41:36.86" datetimeticks="636410688968655673" />
+    </entity>
+    <entity LocalizedName="Part Applicable Vehicle Model" OriginalName="Part Applicable Vehicle Model" Description="" id="gsc_svc_partapplicablevehiclemodel" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:55.05" datetimeticks="636410688550563490" />
+    </entity>
+    <entity LocalizedName="Inventory History" OriginalName="Inventory History" Description="" id="gsc_iv_inventoryhistory" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:22.22" datetimeticks="636410687622235586" />
+    </entity>
+    <entity LocalizedName="Order Planning Detail" OriginalName="Order Planning Detail" Description="" id="gsc_sls_OrderPlanningDetail" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:23.80" datetimeticks="636410688238039913" />
+    </entity>
+    <entity LocalizedName="Vehicle Base Model" OriginalName="Vehicle Base Model" Description="" id="gsc_iv_VehicleBaseModel" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:28.78" datetimeticks="636410687687812193" />
+    </entity>
+    <entity LocalizedName="Purchase Order Detail" OriginalName="Purchase Order Detail" Description="" id="gsc_cmn_PurchaseOrderItemDetails" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:41.83" datetimeticks="636410687218348170" />
+    </entity>
+    <entity LocalizedName="Product Association" OriginalName="Product Association" Description="" id="ProductAssociation" processed="false">
+    </entity>
+    <entity LocalizedName="Body Type" OriginalName="Body Type" Description="" id="gsc_sls_BodyType" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:53.40" datetimeticks="636410687934026736" />
+    </entity>
+    <entity LocalizedName="Vehicle Adjustment/Variance Entry Detail" OriginalName="Vehicle Adjustment/Variance Entry Detail" Description="" id="gsc_sls_AdjustmentVarianceDetail" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:50.06" datetimeticks="636410687900628581" />
+    </entity>
+    <entity LocalizedName="Charges" OriginalName="Charges" Description="" id="gsc_cmn_Charges" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:07.47" datetimeticks="636410686874762125" />
+    </entity>
+    <entity LocalizedName="Area Group" OriginalName="Area Group" Description="" id="gsc_svc_areagroup" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:49.82" datetimeticks="636410688498266634" />
+    </entity>
+    <entity LocalizedName="Vehicle Count Breakdown" OriginalName="Vehicle Count Breakdown" Description="" id="gsc_iv_VehicleCountBreakdown" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:30.25" datetimeticks="636410687702556494" />
+    </entity>
+    <entity LocalizedName="Invoice Charge" OriginalName="Invoice Charge" Description="" id="gsc_cmn_InvoiceCharge" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:25.32" datetimeticks="636410687053288768" />
+    </entity>
+    <entity LocalizedName="Approver Setup" OriginalName="Approver Setup" Description="" id="gsc_cmn_ApproverSetup" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:05.29" datetimeticks="636410686852992491" />
+    </entity>
+    <entity LocalizedName="ID Request" OriginalName="ID Request" Description="" id="gsc_cmn_IDRequest" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:18.10" datetimeticks="636410686981076755" />
+    </entity>
+    <entity LocalizedName="Color" OriginalName="Color" Description="" id="gsc_iv_Color" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:17.03" datetimeticks="636410687570393448" />
+    </entity>
+    <entity LocalizedName="Vehicle Ownership Transfer" OriginalName="Vehicle Ownership Transfer" Description="" id="gsc_vehicleownershiptransfer" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:41:25.60" datetimeticks="636410688856095932" />
+    </entity>
+    <entity LocalizedName="Vehicle Transfer" OriginalName="Vehicle Transfer" Description="" id="gsc_iv_VehicleTransfer" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:45.53" datetimeticks="636410687855388537" />
+    </entity>
+    <entity LocalizedName="Vehicle Accessory" OriginalName="Vehicle Accessory" Description="" id="gsc_sls_VehicleAccessory" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:36.68" datetimeticks="636410688366828015" />
+    </entity>
+    <entity LocalizedName="Price List" OriginalName="Price List" Description="" id="PriceLevel" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:41:38.28" datetimeticks="636410688982839723" />
+    </entity>
+    <entity LocalizedName="Unit Group" OriginalName="Unit Group" Description="" id="UoMSchedule" processed="false">
+    </entity>
+    <entity LocalizedName="Product Quantity" OriginalName="Product Quantity" Description="" id="gsc_iv_ProductQuantity" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:24.89" datetimeticks="636410687648959800" />
+    </entity>
+    <entity LocalizedName="Order Discount" OriginalName="Order Discount" Description="" id="gsc_cmn_SalesOrderDiscount" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:58.50" datetimeticks="636410687385002330" />
+    </entity>
+    <entity LocalizedName="Post-Delivery Administration" OriginalName="Post-Delivery Administration" Description="" id="gsc_cmn_PostDeliveryAdministration" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:34.92" datetimeticks="636410687149222137" />
+    </entity>
+    <entity LocalizedName="Vehicle Count Schedule" OriginalName="Vehicle Count Schedule" Description="" id="gsc_iv_VehicleCountSchedule" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:34.67" datetimeticks="636410687746750043" />
+    </entity>
+    <entity LocalizedName="Vehicle Make" OriginalName="Vehicle Make" Description="" id="gsc_iv_VehicleMake" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:44.03" datetimeticks="636410687840377416" />
+    </entity>
+    <entity LocalizedName="Survey Transaction" OriginalName="Survey Transaction" Description="" id="gsc_cmn_SurveyTransactions" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:01.70" datetimeticks="636410687417068072" />
+    </entity>
+    <entity LocalizedName="Vehicle Adjustment/Variance Entry" OriginalName="Vehicle Adjustment/Variance Entry" Description="" id="gsc_sls_VehicleAdjustmentVarianceEntry" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:38.32" datetimeticks="636410688383291901" />
+    </entity>
+    <entity LocalizedName="zTBD_Receiving Transaction" OriginalName="zTBD_Receiving Transaction" Description="" id="gsc_svc_receivingtransaction" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:41:18.62" datetimeticks="636410688786258692" />
+    </entity>
+    <entity LocalizedName="zTBD_Country" OriginalName="zTBD_Country" Description="Country" id="gsc_syscountry" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:41:23.86" datetimeticks="636410688838645760" />
+    </entity>
+    <entity LocalizedName="PO Product" OriginalName="PO Product" Description="" id="gsc_svc_poproduct" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:41:03.89" datetimeticks="636410688638918706" />
+    </entity>
+    <entity LocalizedName="Parts Bulletin" OriginalName="Parts Bulletin" Description="" id="gsc_svc_partsbulletin" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:41:00.68" datetimeticks="636410688606844603" />
+    </entity>
+    <entity LocalizedName="Vehicle Count Entry Details" OriginalName="Vehicle Count Entry Details" Description="" id="gsc_iv_VehicleCountEntryDetails" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:32.97" datetimeticks="636410687729726341" />
+    </entity>
+    <entity LocalizedName="Shipping Claim" OriginalName="Shipping Claim" Description="" id="gsc_sls_ShippingClaim" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:33.98" datetimeticks="636410688339890750" />
+    </entity>
+    <entity LocalizedName="PO Type Charge" OriginalName="PO Type Charge" Description="" id="gsc_svc_POTypeCharge" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:41:09.45" datetimeticks="636410688694512787" />
+    </entity>
+    <entity LocalizedName="Part Bin" OriginalName="Part Bin" Description="" id="gsc_svc_partbin" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:59.42" datetimeticks="636410688594266772" />
+    </entity>
+    <entity LocalizedName="Class Maintenance" OriginalName="Class Maintenance" Description="" id="gsc_cmn_ClassMaintenance" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:10.56" datetimeticks="636410686905637786" />
+    </entity>
+    <entity LocalizedName="Vehicle Count Entry" OriginalName="Vehicle Count Entry" Description="" id="gsc_iv_VehicleCountEntry" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:31.45" datetimeticks="636410687714556609" />
+    </entity>
+    <entity LocalizedName="Sales Return Detail" OriginalName="Sales Return Detail" Description="" id="gsc_iv_SalesReturnDetail" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:26.02" datetimeticks="636410687660246301" />
+    </entity>
+    <entity LocalizedName="Bin" OriginalName="Bin" Description="" id="gsc_iv_Bin" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:15.82" datetimeticks="636410687558277220" />
+    </entity>
+    <entity LocalizedName="Receiving Transaction Detail" OriginalName="Receiving Transaction Detail" Description="" id="gsc_cmn_ReceivingTransactionDetail" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:52.02" datetimeticks="636410687320202698" />
+    </entity>
+    <entity LocalizedName="Country" OriginalName="Country" Description="" id="gsc_cmn_Country" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:11.61" datetimeticks="636410686916129172" />
+    </entity>
+    <entity LocalizedName="Insurance" OriginalName="Insurance" Description="" id="gsc_cmn_Insurance" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:38:22.89" datetimeticks="636410687028904898" />
+    </entity>
+    <entity LocalizedName="Web Page" OriginalName="Web Page" Description="Web Page" id="Adx_webpage" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:37:57.48" datetimeticks="636410686774819276" />
+    </entity>
+    <entity LocalizedName="Price List Item History" OriginalName="Price List Item History" Description="" id="gsc_svc_PriceListItemHistory" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:41:13.75" datetimeticks="636410688737505007" />
+    </entity>
+    <entity LocalizedName="zTBD_Prospect" OriginalName="zTBD_Prospect" Description="" id="gsc_sls_Prospect" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:25.52" datetimeticks="636410688255215772" />
+    </entity>
+    <entity LocalizedName="Invoice Monthly Amortization" OriginalName="Invoice Monthly Amortization" Description="" id="gsc_sls_InvoiceMonthlyAmortization" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:12.52" datetimeticks="636410688125236760" />
+    </entity>
+    <entity LocalizedName="Allocated Vehicle" OriginalName="Allocated Vehicle" Description="" id="gsc_iv_AllocatedVehicle" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:14.87" datetimeticks="636410687548763591" />
+    </entity>
+    <entity LocalizedName="zTBD_Province" OriginalName="zTBD_Province" Description="Province" id="gsc_sysprovince" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:41:24.72" datetimeticks="636410688847287565" />
+    </entity>
+    <entity LocalizedName="Committed Firm Order Quantity" OriginalName="Committed Firm Order Quantity" Description="" id="gsc_sls_CommittedFirmOrderQuantity" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:02.10" datetimeticks="636410688021021401" />
+    </entity>
+    <entity LocalizedName="zTBD_Vendor" OriginalName="zTBD_Vendor" Description="" id="gsc_cmn_Vendor" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:39:10.27" datetimeticks="636410687502736678" />
+    </entity>
+    <entity LocalizedName="Part Assembly Kit Item" OriginalName="Part Assembly Kit Item" Description="" id="gsc_svc_partassemblykititem" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:57.18" datetimeticks="636410688571873051" />
+    </entity>
+    <entity LocalizedName="Vehicle Claim Discount" OriginalName="Vehicle Claim Discount" Description="" id="gsc_sls_VehicleClaimDiscount" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:40:42.59" datetimeticks="636410688425948270" />
+    </entity>
+  </entities>
+  <nodes />
+  <settings />
+  <dashboards>
+    <dashboard id="{e31fa019-67ac-e611-80e1-00155d010e2c}" name="Sample Dashboard" description="" processed="false" />
+  </dashboards>
+  <securityroles />
+  <workflows>
+    <workflow workflowid="{886a57c6-4be8-e611-80ed-00155d010e2c}" id="{886a57c6-4be8-e611-80ed-00155d010e2c}" name="Enable/Disable Financing Term" type="1" description="" processed="false" />
+    <workflow workflowid="{aba34676-2862-e711-80f5-00155d010e2c}" id="{aba34676-2862-e711-80f5-00155d010e2c}" name="Unlock portal user id field" type="1" description="" processed="false" />
+  </workflows>
+  <publishworkflows>
+    <publishworkflow workflowid="{886a57c6-4be8-e611-80ed-00155d010e2c}" id="{886a57c6-4be8-e611-80ed-00155d010e2c}" name="Enable/Disable Financing Term" type="1" description="" processed="false" />
+    <publishworkflow workflowid="{aba34676-2862-e711-80f5-00155d010e2c}" id="{aba34676-2862-e711-80f5-00155d010e2c}" name="Unlock portal user id field" type="1" description="" processed="false" />
+  </publishworkflows>
+  <templates>
+    <template id="{0e5d8fb7-0c19-e711-80f0-00155d010e2c}" name="Publish Promo Notification" description="Once MMPC publish a promo, system will send notification to branches." type="2010" processed="false" />
+    <template id="{5f13857c-721b-e711-80f0-00155d010e2c}" name="Publish Price List Notification" description="" type="2010" processed="false" />
+    <template id="{f0cdbb7f-f37a-e611-80dc-00155d010e2c}" name="Prospect Monitoring Notification" description="" type="2010" processed="false" />
+    <template id="{100ddde0-cd99-e611-80df-00155d010e2c}" name="Send Employee Credentials" description="" type="2010" processed="false" />
+    <template id="{c3b3ab40-ebd3-e611-80e7-00155d010e2c}" name="Default Price List Change Notification" description="" type="2010" processed="false" />
+  </templates>
+  <optionSets>
+    <optionSet id="gsc_financingterms" LocalizedName="Financing Terms" Description="" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:37:48.07" datetimeticks="636410686680742086" />
+    </optionSet>
+    <optionSet id="gsc_gender" LocalizedName="Gender" Description="" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:37:48.18" datetimeticks="636410686681835858" />
+    </optionSet>
+    <optionSet id="gsc_paymentmode" LocalizedName="Payment Mode" Description="" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:37:48.37" datetimeticks="636410686683755194" />
+    </optionSet>
+  </optionSets>
+  <ConnectionRoles />
+  <SolutionPluginAssemblies />
+  <SdkMessageProcessingSteps />
+  <ServiceEndpoints />
+  <webResources>
+    <webResource id="gsc_CommonLibrary" type="3" LocalizedName="CommonLibrary" Description="" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:37:49.19" datetimeticks="636410686691969090" />
+    </webResource>
+    <webResource id="gsc_/GSC.Anduril.DMS.Configuration.Changelogs.html" type="1" LocalizedName="GSC.Anduril.DMS.Configuration.Changelogs" Description="Configuration changelogs" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:37:49.24" datetimeticks="636410686692437858" />
+    </webResource>
+  </webResources>
+  <reports />
+  <FieldSecurityProfiles />
+  <convertrules />
+  <routingrules />
+  <Slas />
+  <languages>
+    <language>
+      <result result="success" errorcode="0" errortext="" datetime="10:37:33.67" datetimeticks="636410686536775029" />
+    </language>
+  </languages>
+  <entitySubhandlers>
+    <savedQuery LocalizedName="Financing Scheme" OriginalName="Financing Scheme" Description="" id="gsc_cmn_FinancingScheme" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Financing Scheme" OriginalName="Financing Scheme" Description="" id="gsc_cmn_FinancingScheme" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Financing Scheme" OriginalName="Financing Scheme" Description="" id="gsc_cmn_FinancingScheme" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="zTBD_Inventory Count" OriginalName="zTBD_Inventory Count" Description="" id="gsc_iv_InventoryCount" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="zTBD_Inventory Count" OriginalName="zTBD_Inventory Count" Description="" id="gsc_iv_InventoryCount" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="zTBD_Inventory Count" OriginalName="zTBD_Inventory Count" Description="" id="gsc_iv_InventoryCount" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="ZTBD_Monthly Amortization" OriginalName="ZTBD_Monthly Amortization" Description="" id="gsc_sls_MonthlyAmortization" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="ZTBD_Monthly Amortization" OriginalName="ZTBD_Monthly Amortization" Description="" id="gsc_sls_MonthlyAmortization" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="ZTBD_Monthly Amortization" OriginalName="ZTBD_Monthly Amortization" Description="" id="gsc_sls_MonthlyAmortization" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Invoice Discount" OriginalName="Invoice Discount" Description="" id="gsc_cmn_InvoiceDiscount" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Invoice Discount" OriginalName="Invoice Discount" Description="" id="gsc_cmn_InvoiceDiscount" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Invoice Discount" OriginalName="Invoice Discount" Description="" id="gsc_cmn_InvoiceDiscount" processed="false">
+    </entityRibbon>
+    <formXml LocalizedName="Entity Permission" OriginalName="Entity Permission" Description="" id="adx_entitypermission" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Entity Permission" OriginalName="Entity Permission" Description="" id="adx_entitypermission" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Order Accessory" OriginalName="Order Accessory" Description="" id="gsc_sls_OrderAccessory" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Order Accessory" OriginalName="Order Accessory" Description="" id="gsc_sls_OrderAccessory" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Order Accessory" OriginalName="Order Accessory" Description="" id="gsc_sls_OrderAccessory" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Inventory" OriginalName="Inventory" Description="" id="gsc_iv_Inventory" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Inventory" OriginalName="Inventory" Description="" id="gsc_iv_Inventory" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Inventory" OriginalName="Inventory" Description="" id="gsc_iv_Inventory" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Bank" OriginalName="Bank" Description="" id="gsc_sls_Bank" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Bank" OriginalName="Bank" Description="" id="gsc_sls_Bank" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Bank" OriginalName="Bank" Description="" id="gsc_sls_Bank" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Accreditation" OriginalName="Accreditation" Description="" id="gsc_cmn_Accreditation" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Accreditation" OriginalName="Accreditation" Description="" id="gsc_cmn_Accreditation" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Accreditation" OriginalName="Accreditation" Description="" id="gsc_cmn_Accreditation" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="PO Type Parts" OriginalName="PO Type Parts" Description="" id="gsc_svc_POTypeParts" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="PO Type Parts" OriginalName="PO Type Parts" Description="" id="gsc_svc_POTypeParts" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="PO Type Parts" OriginalName="PO Type Parts" Description="" id="gsc_svc_POTypeParts" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Quote Charge" OriginalName="Quote Charge" Description="" id="gsc_cmn_QuoteCharge" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Quote Charge" OriginalName="Quote Charge" Description="" id="gsc_cmn_QuoteCharge" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Quote Charge" OriginalName="Quote Charge" Description="" id="gsc_cmn_QuoteCharge" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Survey Questions Setup" OriginalName="Survey Questions Setup" Description="" id="gsc_cmn_SurveyQuestionsSetup" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Survey Questions Setup" OriginalName="Survey Questions Setup" Description="" id="gsc_cmn_SurveyQuestionsSetup" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Survey Questions Setup" OriginalName="Survey Questions Setup" Description="" id="gsc_cmn_SurveyQuestionsSetup" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Vehicle and Item Catalog" OriginalName="Product" Description="Information about products and their pricing information." id="Product" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Vehicle and Item Catalog" OriginalName="Product" Description="Information about products and their pricing information." id="Product" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Vehicle and Item Catalog" OriginalName="Product" Description="Information about products and their pricing information." id="Product" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Quote Monthly Amortization" OriginalName="Quote Monthly Amortization" Description="" id="gsc_sls_QuoteMonthlyAmortization" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Quote Monthly Amortization" OriginalName="Quote Monthly Amortization" Description="" id="gsc_sls_QuoteMonthlyAmortization" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Quote Monthly Amortization" OriginalName="Quote Monthly Amortization" Description="" id="gsc_sls_QuoteMonthlyAmortization" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Sales Document" OriginalName="Sales Document" Description="" id="gsc_sls_salesdocument" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Sales Document" OriginalName="Sales Document" Description="" id="gsc_sls_salesdocument" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Sales Document" OriginalName="Sales Document" Description="" id="gsc_sls_salesdocument" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Invoiced Vehicle" OriginalName="Invoiced Vehicle" Description="" id="gsc_iv_InvoicedVehicle" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Invoiced Vehicle" OriginalName="Invoiced Vehicle" Description="" id="gsc_iv_InvoicedVehicle" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Invoiced Vehicle" OriginalName="Invoiced Vehicle" Description="" id="gsc_iv_InvoicedVehicle" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Other Vehicle Owned" OriginalName="Other Vehicle Owned" Description="" id="gsc_cmn_OtherVehicleOwned" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Other Vehicle Owned" OriginalName="Other Vehicle Owned" Description="" id="gsc_cmn_OtherVehicleOwned" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Other Vehicle Owned" OriginalName="Other Vehicle Owned" Description="" id="gsc_cmn_OtherVehicleOwned" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Vehicle Post-Delivery Monitoring" OriginalName="Vehicle Post-Delivery Monitoring" Description="" id="gsc_sls_VehiclePostDeliveryMonitoring" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Vehicle Post-Delivery Monitoring" OriginalName="Vehicle Post-Delivery Monitoring" Description="" id="gsc_sls_VehiclePostDeliveryMonitoring" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Vehicle Post-Delivery Monitoring" OriginalName="Vehicle Post-Delivery Monitoring" Description="" id="gsc_sls_VehiclePostDeliveryMonitoring" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Invoice Accessory" OriginalName="Invoice Accessory" Description="" id="gsc_sls_InvoiceAccessory" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Invoice Accessory" OriginalName="Invoice Accessory" Description="" id="gsc_sls_InvoiceAccessory" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Invoice Accessory" OriginalName="Invoice Accessory" Description="" id="gsc_sls_InvoiceAccessory" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Quote Discount" OriginalName="Quote Discount" Description="" id="gsc_cmn_QuoteDiscount" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Quote Discount" OriginalName="Quote Discount" Description="" id="gsc_cmn_QuoteDiscount" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Quote Discount" OriginalName="Quote Discount" Description="" id="gsc_cmn_QuoteDiscount" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Lead Source" OriginalName="Lead Source" Description="" id="gsc_sls_leadsource" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Lead Source" OriginalName="Lead Source" Description="" id="gsc_sls_leadsource" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Lead Source" OriginalName="Lead Source" Description="" id="gsc_sls_leadsource" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="General Vehicle Data" OriginalName="General Vehicle Data" Description="" id="gsc_sls_gvd" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="General Vehicle Data" OriginalName="General Vehicle Data" Description="" id="gsc_sls_gvd" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="General Vehicle Data" OriginalName="General Vehicle Data" Description="" id="gsc_sls_gvd" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="City" OriginalName="City" Description="" id="gsc_cmn_City" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="City" OriginalName="City" Description="" id="gsc_cmn_City" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="City" OriginalName="City" Description="" id="gsc_cmn_City" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Prospecting Activity" OriginalName="Prospecting Activity" Description="" id="gsc_sls_ProspectingActivity" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Prospecting Activity" OriginalName="Prospecting Activity" Description="" id="gsc_sls_ProspectingActivity" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Prospecting Activity" OriginalName="Prospecting Activity" Description="" id="gsc_sls_ProspectingActivity" processed="false">
+    </entityRibbon>
+    <formXml LocalizedName="Order Product" OriginalName="Order Product" Description="" id="SalesOrderDetail" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Order Product" OriginalName="Order Product" Description="" id="SalesOrderDetail" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Vehicle Count Schedule Detail" OriginalName="Vehicle Count Schedule Detail" Description="" id="gsc_iv_VehicleCountScheduleDetail" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Vehicle Count Schedule Detail" OriginalName="Vehicle Count Schedule Detail" Description="" id="gsc_iv_VehicleCountScheduleDetail" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Vehicle Count Schedule Detail" OriginalName="Vehicle Count Schedule Detail" Description="" id="gsc_iv_VehicleCountScheduleDetail" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Vehicle Claim" OriginalName="Vehicle Claim" Description="" id="gsc_sls_VehicleClaim" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Vehicle Claim" OriginalName="Vehicle Claim" Description="" id="gsc_sls_VehicleClaim" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Vehicle Claim" OriginalName="Vehicle Claim" Description="" id="gsc_sls_VehicleClaim" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Receiving Transaction" OriginalName="Receiving Transaction" Description="" id="gsc_cmn_ReceivingTransaction" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Receiving Transaction" OriginalName="Receiving Transaction" Description="" id="gsc_cmn_ReceivingTransaction" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Receiving Transaction" OriginalName="Receiving Transaction" Description="" id="gsc_cmn_ReceivingTransaction" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Vehicle Count Schedule Filter" OriginalName="Vehicle Count Schedule Filter" Description="" id="gsc_iv_VehicleCountScheduleFilter" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Vehicle Count Schedule Filter" OriginalName="Vehicle Count Schedule Filter" Description="" id="gsc_iv_VehicleCountScheduleFilter" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Vehicle Count Schedule Filter" OriginalName="Vehicle Count Schedule Filter" Description="" id="gsc_iv_VehicleCountScheduleFilter" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Region" OriginalName="Region" Description="" id="gsc_cmn_Region" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Region" OriginalName="Region" Description="" id="gsc_cmn_Region" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Region" OriginalName="Region" Description="" id="gsc_cmn_Region" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Invoice Requirement Checklist" OriginalName="Invoice Requirement Checklist" Description="" id="gsc_sls_InvoiceRequirementChecklist" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Invoice Requirement Checklist" OriginalName="Invoice Requirement Checklist" Description="" id="gsc_sls_InvoiceRequirementChecklist" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Invoice Requirement Checklist" OriginalName="Invoice Requirement Checklist" Description="" id="gsc_sls_InvoiceRequirementChecklist" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="zTBD_Purchase Order Approval" OriginalName="Purchase Order Approval" Description="" id="gsc_svc_purchaseorderapproval" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="zTBD_Purchase Order Approval" OriginalName="Purchase Order Approval" Description="" id="gsc_svc_purchaseorderapproval" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="zTBD_Purchase Order Approval" OriginalName="Purchase Order Approval" Description="" id="gsc_svc_purchaseorderapproval" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Vehicle In-Transit Transfer Receiving Checklist" OriginalName="Vehicle In-Transit Transfer Receiving Checklist" Description="" id="gsc_iv_VehicleInTransitReceivingChecklist" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Vehicle In-Transit Transfer Receiving Checklist" OriginalName="Vehicle In-Transit Transfer Receiving Checklist" Description="" id="gsc_iv_VehicleInTransitReceivingChecklist" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Vehicle In-Transit Transfer Receiving Checklist" OriginalName="Vehicle In-Transit Transfer Receiving Checklist" Description="" id="gsc_iv_VehicleInTransitReceivingChecklist" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Return Transaction" OriginalName="Return Transaction" Description="" id="gsc_cmn_ReturnTransaction" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Return Transaction" OriginalName="Return Transaction" Description="" id="gsc_cmn_ReturnTransaction" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Return Transaction" OriginalName="Return Transaction" Description="" id="gsc_cmn_ReturnTransaction" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Unit of Measure" OriginalName="Unit of Measure" Description="" id="gsc_cmn_UnitOfMeasure" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Unit of Measure" OriginalName="Unit of Measure" Description="" id="gsc_cmn_UnitOfMeasure" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Unit of Measure" OriginalName="Unit of Measure" Description="" id="gsc_cmn_UnitOfMeasure" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Sales Order" OriginalName="Order" Description="Quote that has been accepted." id="SalesOrder" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Sales Order" OriginalName="Order" Description="Quote that has been accepted." id="SalesOrder" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Sales Order" OriginalName="Order" Description="Quote that has been accepted." id="SalesOrder" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Order Coverage Available" OriginalName="Order Coverage Available" Description="" id="gsc_cmn_OrderCoverageAvailable" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Order Coverage Available" OriginalName="Order Coverage Available" Description="" id="gsc_cmn_OrderCoverageAvailable" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Order Coverage Available" OriginalName="Order Coverage Available" Description="" id="gsc_cmn_OrderCoverageAvailable" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Province" OriginalName="Province" Description="" id="gsc_cmn_Province" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Province" OriginalName="Province" Description="" id="gsc_cmn_Province" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Province" OriginalName="Province" Description="" id="gsc_cmn_Province" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Charge Item" OriginalName="Charge Item" Description="" id="gsc_cmn_ChargesItem" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Charge Item" OriginalName="Charge Item" Description="" id="gsc_cmn_ChargesItem" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Charge Item" OriginalName="Charge Item" Description="" id="gsc_cmn_ChargesItem" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Vehicle Sales Return" OriginalName="Vehicle Sales Return" Description="" id="gsc_sls_VehicleSalesReturn" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Vehicle Sales Return" OriginalName="Vehicle Sales Return" Description="" id="gsc_sls_VehicleSalesReturn" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Vehicle Sales Return" OriginalName="Vehicle Sales Return" Description="" id="gsc_sls_VehicleSalesReturn" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Product Relationship" OriginalName="Product Substitute" Description="Information about the selling relationship between two products, including the relationship type, such as up-sell, cross-sell, substitute, or accessory." id="ProductSubstitute" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Product Relationship" OriginalName="Product Substitute" Description="Information about the selling relationship between two products, including the relationship type, such as up-sell, cross-sell, substitute, or accessory." id="ProductSubstitute" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Product Relationship" OriginalName="Product Substitute" Description="Information about the selling relationship between two products, including the relationship type, such as up-sell, cross-sell, substitute, or accessory." id="ProductSubstitute" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Contact" OriginalName="Contact" Description="Person with whom a business unit has a relationship, such as customer, supplier, and colleague." id="Contact" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Contact" OriginalName="Contact" Description="Person with whom a business unit has a relationship, such as customer, supplier, and colleague." id="Contact" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Contact" OriginalName="Contact" Description="Person with whom a business unit has a relationship, such as customer, supplier, and colleague." id="Contact" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Financing Scheme Details" OriginalName="Financing Scheme Details" Description="" id="gsc_cmn_FinancingSchemeDetails" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Financing Scheme Details" OriginalName="Financing Scheme Details" Description="" id="gsc_cmn_FinancingSchemeDetails" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Financing Scheme Details" OriginalName="Financing Scheme Details" Description="" id="gsc_cmn_FinancingSchemeDetails" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Order Planning" OriginalName="Order Planning" Description="" id="gsc_sls_OrderPlanning" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Order Planning" OriginalName="Order Planning" Description="" id="gsc_sls_OrderPlanning" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Order Planning" OriginalName="Order Planning" Description="" id="gsc_sls_OrderPlanning" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Receiving Transaction Component Checklist" OriginalName="Receiving Transaction Component Checklist" Description="" id="gsc_cmn_ReceivingTransactionChecklist" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Receiving Transaction Component Checklist" OriginalName="Receiving Transaction Component Checklist" Description="" id="gsc_cmn_ReceivingTransactionChecklist" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Receiving Transaction Component Checklist" OriginalName="Receiving Transaction Component Checklist" Description="" id="gsc_cmn_ReceivingTransactionChecklist" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Quote Coverage Available" OriginalName="Quote Coverage Available" Description="" id="gsc_cmn_QuoteCoverageAvailable" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Quote Coverage Available" OriginalName="Quote Coverage Available" Description="" id="gsc_cmn_QuoteCoverageAvailable" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Quote Coverage Available" OriginalName="Quote Coverage Available" Description="" id="gsc_cmn_QuoteCoverageAvailable" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Vehicle Transfer Details" OriginalName="Vehicle Transfer Details" Description="" id="gsc_iv_VehicleTransferDetails" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Vehicle Transfer Details" OriginalName="Vehicle Transfer Details" Description="" id="gsc_iv_VehicleTransferDetails" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Vehicle Transfer Details" OriginalName="Vehicle Transfer Details" Description="" id="gsc_iv_VehicleTransferDetails" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Site/Warehouse" OriginalName="Site/Warehouse" Description="" id="gsc_iv_Site" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Site/Warehouse" OriginalName="Site/Warehouse" Description="" id="gsc_iv_Site" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Site/Warehouse" OriginalName="Site/Warehouse" Description="" id="gsc_iv_Site" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Committed Firm Order Inquiry" OriginalName="Committed Firm Order" Description="" id="gsc_sls_CommittedFirmOrder" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Committed Firm Order Inquiry" OriginalName="Committed Firm Order" Description="" id="gsc_sls_CommittedFirmOrder" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Committed Firm Order Inquiry" OriginalName="Committed Firm Order" Description="" id="gsc_sls_CommittedFirmOrder" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Invoice Cab Chassis" OriginalName="Invoice Cab Chassis" Description="" id="gsc_invoicecabchassis" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Invoice Cab Chassis" OriginalName="Invoice Cab Chassis" Description="" id="gsc_invoicecabchassis" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Invoice Cab Chassis" OriginalName="Invoice Cab Chassis" Description="" id="gsc_invoicecabchassis" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Purchase Order Approval" OriginalName="Purchase Order Approval" Description="" id="gsc_cmn_purchaseorderapproval" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Purchase Order Approval" OriginalName="Purchase Order Approval" Description="" id="gsc_cmn_purchaseorderapproval" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Purchase Order Approval" OriginalName="Purchase Order Approval" Description="" id="gsc_cmn_purchaseorderapproval" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Sales Area" OriginalName="Sales Area" Description="" id="gsc_cmn_SalesArea" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Sales Area" OriginalName="Sales Area" Description="" id="gsc_cmn_SalesArea" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Sales Area" OriginalName="Sales Area" Description="" id="gsc_cmn_SalesArea" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="zTBD_Purchase Order Approval" OriginalName="Purchase Order Approval" Description="" id="gsc_purchaseorderapproval" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="zTBD_Purchase Order Approval" OriginalName="Purchase Order Approval" Description="" id="gsc_purchaseorderapproval" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="zTBD_Purchase Order Approval" OriginalName="Purchase Order Approval" Description="" id="gsc_purchaseorderapproval" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Incident Report" OriginalName="Incident Report" Description="" id="gsc_cmn_IncidentReport" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Incident Report" OriginalName="Incident Report" Description="" id="gsc_cmn_IncidentReport" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Incident Report" OriginalName="Incident Report" Description="" id="gsc_cmn_IncidentReport" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Financing Term" OriginalName="Financing Term" Description="" id="gsc_sls_FinancingTerm" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Financing Term" OriginalName="Financing Term" Description="" id="gsc_sls_FinancingTerm" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Financing Term" OriginalName="Financing Term" Description="" id="gsc_sls_FinancingTerm" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Prospect Inquiry" OriginalName="Lead" Description="Prospect or potential sales opportunity. Leads are converted into accounts, contacts, or opportunities when they are qualified. Otherwise, they are deleted or archived." id="Lead" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Prospect Inquiry" OriginalName="Lead" Description="Prospect or potential sales opportunity. Leads are converted into accounts, contacts, or opportunities when they are qualified. Otherwise, they are deleted or archived." id="Lead" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Prospect Inquiry" OriginalName="Lead" Description="Prospect or potential sales opportunity. Leads are converted into accounts, contacts, or opportunities when they are qualified. Otherwise, they are deleted or archived." id="Lead" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="zTBD_Bank" OriginalName="zTBD_Bank" Description="" id="gsc_cmn_Bank" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="zTBD_Bank" OriginalName="zTBD_Bank" Description="" id="gsc_cmn_Bank" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="zTBD_Bank" OriginalName="zTBD_Bank" Description="" id="gsc_cmn_Bank" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="ID Sequence" OriginalName="ID Sequence" Description="" id="gsc_cmn_IDSequence" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="ID Sequence" OriginalName="ID Sequence" Description="" id="gsc_cmn_IDSequence" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="ID Sequence" OriginalName="ID Sequence" Description="" id="gsc_cmn_IDSequence" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Requirement Checklist" OriginalName="Requirement Checklist" Description="" id="gsc_sls_RequirementChecklist" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Requirement Checklist" OriginalName="Requirement Checklist" Description="" id="gsc_sls_RequirementChecklist" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Requirement Checklist" OriginalName="Requirement Checklist" Description="" id="gsc_sls_RequirementChecklist" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Invoice" OriginalName="Invoice" Description="Order that has been billed." id="Invoice" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Invoice" OriginalName="Invoice" Description="Order that has been billed." id="Invoice" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Invoice" OriginalName="Invoice" Description="Order that has been billed." id="Invoice" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Training" OriginalName="Training" Description="" id="gsc_cmn_Training" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Training" OriginalName="Training" Description="" id="gsc_cmn_Training" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Training" OriginalName="Training" Description="" id="gsc_cmn_Training" processed="false">
+    </entityRibbon>
+    <entityRibbon LocalizedName="Discount List" OriginalName="Discount List" Description="" id="DiscountType" processed="false">
+    </entityRibbon>
+    <formXml LocalizedName="Price List Item" OriginalName="Price List Item" Description="" id="ProductPriceLevel" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Price List Item" OriginalName="Price List Item" Description="" id="ProductPriceLevel" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Return Transaction Detail" OriginalName="Return Transaction Detail" Description="" id="gsc_cmn_ReturnTransactionDetails" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Return Transaction Detail" OriginalName="Return Transaction Detail" Description="" id="gsc_cmn_ReturnTransactionDetails" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Return Transaction Detail" OriginalName="Return Transaction Detail" Description="" id="gsc_cmn_ReturnTransactionDetails" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="zTBC_City" OriginalName="zTBC_City" Description="City" id="gsc_syscity" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="zTBC_City" OriginalName="zTBC_City" Description="City" id="gsc_syscity" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="zTBC_City" OriginalName="zTBC_City" Description="City" id="gsc_syscity" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Vehicle In-Transit Transfer Receiving" OriginalName="Vehicle In-Transit Transfer Receiving" Description="" id="gsc_iv_VehicleInTransitTransferReceiving" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Vehicle In-Transit Transfer Receiving" OriginalName="Vehicle In-Transit Transfer Receiving" Description="" id="gsc_iv_VehicleInTransitTransferReceiving" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Vehicle In-Transit Transfer Receiving" OriginalName="Vehicle In-Transit Transfer Receiving" Description="" id="gsc_iv_VehicleInTransitTransferReceiving" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Account" OriginalName="Account" Description="Business that represents a customer or potential customer. The company that is billed in business transactions." id="Account" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Account" OriginalName="Account" Description="Business that represents a customer or potential customer. The company that is billed in business transactions." id="Account" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Account" OriginalName="Account" Description="Business that represents a customer or potential customer. The company that is billed in business transactions." id="Account" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Withholding Tax" OriginalName="Withholding Tax" Description="" id="gsc_cmn_WithholdingTax" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Withholding Tax" OriginalName="Withholding Tax" Description="" id="gsc_cmn_WithholdingTax" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Withholding Tax" OriginalName="Withholding Tax" Description="" id="gsc_cmn_WithholdingTax" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Vehicle In-Transit Transfer" OriginalName="Vehicle In-Transit Transfer" Description="" id="gsc_iv_VehicleInTransitTransfer" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Vehicle In-Transit Transfer" OriginalName="Vehicle In-Transit Transfer" Description="" id="gsc_iv_VehicleInTransitTransfer" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Vehicle In-Transit Transfer" OriginalName="Vehicle In-Transit Transfer" Description="" id="gsc_iv_VehicleInTransitTransfer" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Position" OriginalName="Position" Description="" id="gsc_cmn_Position" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Position" OriginalName="Position" Description="" id="gsc_cmn_Position" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Position" OriginalName="Position" Description="" id="gsc_cmn_Position" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="PO Type" OriginalName="PO Type" Description="" id="gsc_svc_POType" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="PO Type" OriginalName="PO Type" Description="" id="gsc_svc_POType" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="PO Type" OriginalName="PO Type" Description="" id="gsc_svc_POType" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Extended Price List Item" OriginalName="Extended Price List Item" Description="" id="gsc_cmn_ExtendedPriceListItem" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Extended Price List Item" OriginalName="Extended Price List Item" Description="" id="gsc_cmn_ExtendedPriceListItem" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Extended Price List Item" OriginalName="Extended Price List Item" Description="" id="gsc_cmn_ExtendedPriceListItem" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Vehicle Cab Chassis" OriginalName="Vehicle Cab Chassis" Description="" id="gsc_sls_VehicleCabChassis" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Vehicle Cab Chassis" OriginalName="Vehicle Cab Chassis" Description="" id="gsc_sls_VehicleCabChassis" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Vehicle Cab Chassis" OriginalName="Vehicle Cab Chassis" Description="" id="gsc_sls_VehicleCabChassis" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Insurance Coverage" OriginalName="Insurance Coverage" Description="" id="gsc_cmn_InsuranceCoverage" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Insurance Coverage" OriginalName="Insurance Coverage" Description="" id="gsc_cmn_InsuranceCoverage" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Insurance Coverage" OriginalName="Insurance Coverage" Description="" id="gsc_cmn_InsuranceCoverage" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Survey Setup" OriginalName="Survey Setup" Description="" id="gsc_cmn_SurveySetup" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Survey Setup" OriginalName="Survey Setup" Description="" id="gsc_cmn_SurveySetup" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Survey Setup" OriginalName="Survey Setup" Description="" id="gsc_cmn_SurveySetup" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Invoice Coverage Available" OriginalName="Invoice Coverage Available" Description="" id="gsc_cmn_InvoiceCoverageAvailable" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Invoice Coverage Available" OriginalName="Invoice Coverage Available" Description="" id="gsc_cmn_InvoiceCoverageAvailable" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Invoice Coverage Available" OriginalName="Invoice Coverage Available" Description="" id="gsc_cmn_InvoiceCoverageAvailable" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="zTBD_Site" OriginalName="zTBD_Site" Description="" id="gsc_svc_site" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="zTBD_Site" OriginalName="zTBD_Site" Description="" id="gsc_svc_site" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="zTBD_Site" OriginalName="zTBD_Site" Description="" id="gsc_svc_site" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Order Monthly Amortization" OriginalName="Order Monthly Amortization" Description="" id="gsc_sls_OrderMonthlyAmortization" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Order Monthly Amortization" OriginalName="Order Monthly Amortization" Description="" id="gsc_sls_OrderMonthlyAmortization" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Order Monthly Amortization" OriginalName="Order Monthly Amortization" Description="" id="gsc_sls_OrderMonthlyAmortization" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Tax Maintenance" OriginalName="Tax Maintenance" Description="" id="gsc_cmn_TaxMaintenance" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Tax Maintenance" OriginalName="Tax Maintenance" Description="" id="gsc_cmn_TaxMaintenance" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Tax Maintenance" OriginalName="Tax Maintenance" Description="" id="gsc_cmn_TaxMaintenance" processed="false">
+    </entityRibbon>
+    <entityRibbon LocalizedName="Note" OriginalName="Note" Description="" id="Annotation" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Document Checklist" OriginalName="Document Checklist" Description="" id="gsc_sls_DocumentChecklist" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Document Checklist" OriginalName="Document Checklist" Description="" id="gsc_sls_DocumentChecklist" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Document Checklist" OriginalName="Document Checklist" Description="" id="gsc_sls_DocumentChecklist" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="zTBD_Bin" OriginalName="zTBD_Bin" Description="" id="gsc_svc_bin" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="zTBD_Bin" OriginalName="zTBD_Bin" Description="" id="gsc_svc_bin" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="zTBD_Bin" OriginalName="zTBD_Bin" Description="" id="gsc_svc_bin" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="PO Suffix" OriginalName="PO Suffix" Description="" id="gsc_svc_POSuffix" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="PO Suffix" OriginalName="PO Suffix" Description="" id="gsc_svc_POSuffix" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="PO Suffix" OriginalName="PO Suffix" Description="" id="gsc_svc_POSuffix" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Occupation" OriginalName="Occupation" Description="" id="gsc_cmn_occupation" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Occupation" OriginalName="Occupation" Description="" id="gsc_cmn_occupation" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Occupation" OriginalName="Occupation" Description="" id="gsc_cmn_occupation" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Vehicle Type Id" OriginalName="Vehicle Type" Description="" id="gsc_iv_VehicleType" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Vehicle Type Id" OriginalName="Vehicle Type" Description="" id="gsc_iv_VehicleType" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Vehicle Type Id" OriginalName="Vehicle Type" Description="" id="gsc_iv_VehicleType" processed="false">
+    </entityRibbon>
+    <formXml LocalizedName="User" OriginalName="User" Description="" id="SystemUser" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="User" OriginalName="User" Description="" id="SystemUser" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Quote Accessory" OriginalName="Quote Accessory" Description="" id="gsc_sls_QuoteAccessory" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Quote Accessory" OriginalName="Quote Accessory" Description="" id="gsc_sls_QuoteAccessory" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Quote Accessory" OriginalName="Quote Accessory" Description="" id="gsc_sls_QuoteAccessory" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Department" OriginalName="Department" Description="" id="gsc_cmn_Department" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Department" OriginalName="Department" Description="" id="gsc_cmn_Department" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Department" OriginalName="Department" Description="" id="gsc_cmn_Department" processed="false">
+    </entityRibbon>
+    <entityRibbon LocalizedName="Currency" OriginalName="" Description="" id="TransactionCurrency" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Order Charge" OriginalName="Order Charge" Description="" id="gsc_cmn_OrderCharge" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Order Charge" OriginalName="Order Charge" Description="" id="gsc_cmn_OrderCharge" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Order Charge" OriginalName="Order Charge" Description="" id="gsc_cmn_OrderCharge" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Approver Details" OriginalName="Approver Details" Description="" id="gsc_cmn_Approver" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Approver Details" OriginalName="Approver Details" Description="" id="gsc_cmn_Approver" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Approver Details" OriginalName="Approver Details" Description="" id="gsc_cmn_Approver" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="GVD Report Detail" OriginalName="GVD Report Detail" Description="" id="gsc_sls_gvdreportdetail" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="GVD Report Detail" OriginalName="GVD Report Detail" Description="" id="gsc_sls_gvdreportdetail" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="GVD Report Detail" OriginalName="GVD Report Detail" Description="" id="gsc_sls_gvdreportdetail" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Part Vendor" OriginalName="Part Vendor" Description="" id="gsc_svc_partvendor" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Part Vendor" OriginalName="Part Vendor" Description="" id="gsc_svc_partvendor" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Part Vendor" OriginalName="Part Vendor" Description="" id="gsc_svc_partvendor" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Vehicle Component Checklist" OriginalName="Vehicle Component Checklist" Description="" id="gsc_sls_VehicleComponentChecklist" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Vehicle Component Checklist" OriginalName="Vehicle Component Checklist" Description="" id="gsc_sls_VehicleComponentChecklist" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Vehicle Component Checklist" OriginalName="Vehicle Component Checklist" Description="" id="gsc_sls_VehicleComponentChecklist" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Cash Receipt" OriginalName="Cash Receipt" Description="" id="gsc_sls_cashreceipt" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Cash Receipt" OriginalName="Cash Receipt" Description="" id="gsc_sls_cashreceipt" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Cash Receipt" OriginalName="Cash Receipt" Description="" id="gsc_sls_cashreceipt" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Web File" OriginalName="Web File" Description="Storage of files used in the web Portals." id="Adx_webfile" processed="false">
+    </savedQuery>
+    <entityRibbon LocalizedName="Web File" OriginalName="Web File" Description="Storage of files used in the web Portals." id="Adx_webfile" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Purchase Order" OriginalName="Purchase Order" Description="" id="gsc_cmn_PurchaseOrder" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Purchase Order" OriginalName="Purchase Order" Description="" id="gsc_cmn_PurchaseOrder" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Purchase Order" OriginalName="Purchase Order" Description="" id="gsc_cmn_PurchaseOrder" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Shipping Claim Detail" OriginalName="Shipping Claim Detail" Description="" id="gsc_sls_ShippingClaimDetail" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Shipping Claim Detail" OriginalName="Shipping Claim Detail" Description="" id="gsc_sls_ShippingClaimDetail" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Shipping Claim Detail" OriginalName="Shipping Claim Detail" Description="" id="gsc_sls_ShippingClaimDetail" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="ICC" OriginalName="ICC" Description="" id="gsc_svc_icc" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="ICC" OriginalName="ICC" Description="" id="gsc_svc_icc" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="ICC" OriginalName="ICC" Description="" id="gsc_svc_icc" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Reason" OriginalName="Reason" Description="" id="gsc_cmn_Reason" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Reason" OriginalName="Reason" Description="" id="gsc_cmn_Reason" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Reason" OriginalName="Reason" Description="" id="gsc_cmn_Reason" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Vehicle Color" OriginalName="Vehicle Color" Description="" id="gsc_cmn_VehicleColor" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Vehicle Color" OriginalName="Vehicle Color" Description="" id="gsc_cmn_VehicleColor" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Vehicle Color" OriginalName="Vehicle Color" Description="" id="gsc_cmn_VehicleColor" processed="false">
+    </entityRibbon>
+    <formXml LocalizedName="Unit" OriginalName="Unit" Description="" id="UoM" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Unit" OriginalName="Unit" Description="" id="UoM" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Transacted Vehicle" OriginalName="Transacted Vehicle" Description="" id="gsc_cmn_TransactedVehicle" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Transacted Vehicle" OriginalName="Transacted Vehicle" Description="" id="gsc_cmn_TransactedVehicle" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Transacted Vehicle" OriginalName="Transacted Vehicle" Description="" id="gsc_cmn_TransactedVehicle" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Chattel Fee" OriginalName="Chattel Fee" Description="" id="gsc_sls_ChattelFee" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Chattel Fee" OriginalName="Chattel Fee" Description="" id="gsc_sls_ChattelFee" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Chattel Fee" OriginalName="Chattel Fee" Description="" id="gsc_sls_ChattelFee" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Series" OriginalName="Series" Description="" id="gsc_svc_series" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Series" OriginalName="Series" Description="" id="gsc_svc_series" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Series" OriginalName="Series" Description="" id="gsc_svc_series" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Order Cab Chassis" OriginalName="Order Cab Chassis" Description="" id="gsc_sls_OrderCabChassis" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Order Cab Chassis" OriginalName="Order Cab Chassis" Description="" id="gsc_sls_OrderCabChassis" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Order Cab Chassis" OriginalName="Order Cab Chassis" Description="" id="gsc_sls_OrderCabChassis" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Apply Sales Document" OriginalName="Apply Sales Document" Description="" id="gsc_sls_applysalesdocument" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Apply Sales Document" OriginalName="Apply Sales Document" Description="" id="gsc_sls_applysalesdocument" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Apply Sales Document" OriginalName="Apply Sales Document" Description="" id="gsc_sls_applysalesdocument" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Committed Firm Order Inquiry Detail" OriginalName="Committed Firm Order Detail" Description="" id="gsc_sls_CommittedFirmOrderDetail" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Committed Firm Order Inquiry Detail" OriginalName="Committed Firm Order Detail" Description="" id="gsc_sls_CommittedFirmOrderDetail" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Committed Firm Order Inquiry Detail" OriginalName="Committed Firm Order Detail" Description="" id="gsc_sls_CommittedFirmOrderDetail" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Vehicle In-Transit Transfer Receiving Detail" OriginalName="Vehicle In-Transit Transfer Receiving Detail" Description="" id="gsc_iv_VehicleInTransitReceivingDetail" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Vehicle In-Transit Transfer Receiving Detail" OriginalName="Vehicle In-Transit Transfer Receiving Detail" Description="" id="gsc_iv_VehicleInTransitReceivingDetail" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Vehicle In-Transit Transfer Receiving Detail" OriginalName="Vehicle In-Transit Transfer Receiving Detail" Description="" id="gsc_iv_VehicleInTransitReceivingDetail" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="zTBD_GVD Rerport" OriginalName="zTBD_GVD Rerport" Description="" id="gsc_gvdrerport" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="zTBD_GVD Rerport" OriginalName="zTBD_GVD Rerport" Description="" id="gsc_gvdrerport" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="zTBD_GVD Rerport" OriginalName="zTBD_GVD Rerport" Description="" id="gsc_gvdrerport" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Document" OriginalName="Document" Description="" id="gsc_sls_Document" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Document" OriginalName="Document" Description="" id="gsc_sls_Document" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Document" OriginalName="Document" Description="" id="gsc_sls_Document" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="zTBD_Purchase Order" OriginalName="zTBD_Purchase Order" Description="" id="gsc_svc_PurchaseOrder" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="zTBD_Purchase Order" OriginalName="zTBD_Purchase Order" Description="" id="gsc_svc_PurchaseOrder" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="zTBD_Purchase Order" OriginalName="zTBD_Purchase Order" Description="" id="gsc_svc_PurchaseOrder" processed="false">
+    </entityRibbon>
+    <entityRibbon LocalizedName="Activity" OriginalName="Activity" Description="" id="ActivityPointer" processed="false">
+    </entityRibbon>
+    <entityRibbon LocalizedName="Contract Template" OriginalName="Contract Template" Description="" id="ContractTemplate" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Vehicle Component" OriginalName="Vehicle Component" Description="" id="gsc_sls_VehicleComponent" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Vehicle Component" OriginalName="Vehicle Component" Description="" id="gsc_sls_VehicleComponent" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Vehicle Component" OriginalName="Vehicle Component" Description="" id="gsc_sls_VehicleComponent" processed="false">
+    </entityRibbon>
+    <entityRibbon LocalizedName="Site" OriginalName="Site" Description="" id="Site" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Quote Product" OriginalName="Quote Product" Description="Product line item in a quote. The details include such information as product ID, description, quantity, and cost." id="QuoteDetail" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Quote Product" OriginalName="Quote Product" Description="Product line item in a quote. The details include such information as product ID, description, quantity, and cost." id="QuoteDetail" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Quote Product" OriginalName="Quote Product" Description="Product line item in a quote. The details include such information as product ID, description, quantity, and cost." id="QuoteDetail" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Vehicle In-Transit Transfer Detail" OriginalName="Vehicle In-Transit Transfer Detail" Description="" id="gsc_iv_VehicleInTransitTransferDetail" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Vehicle In-Transit Transfer Detail" OriginalName="Vehicle In-Transit Transfer Detail" Description="" id="gsc_iv_VehicleInTransitTransferDetail" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Vehicle In-Transit Transfer Detail" OriginalName="Vehicle In-Transit Transfer Detail" Description="" id="gsc_iv_VehicleInTransitTransferDetail" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Quote Cab Chassis" OriginalName="Quote Cab Chassis" Description="" id="gsc_sls_QuoteCabChassis" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Quote Cab Chassis" OriginalName="Quote Cab Chassis" Description="" id="gsc_sls_QuoteCabChassis" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Quote Cab Chassis" OriginalName="Quote Cab Chassis" Description="" id="gsc_sls_QuoteCabChassis" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Opportunity Activity" OriginalName="Opportunity Activity" Description="" id="gsc_sls_OpportunityActivity" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Opportunity Activity" OriginalName="Opportunity Activity" Description="" id="gsc_sls_OpportunityActivity" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Opportunity Activity" OriginalName="Opportunity Activity" Description="" id="gsc_sls_OpportunityActivity" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Committed Firm Order Quantity Detail" OriginalName="Committed Firm Order Quantity Detail" Description="" id="gsc_sls_CommittedFirmOrderQuantityDetail" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Committed Firm Order Quantity Detail" OriginalName="Committed Firm Order Quantity Detail" Description="" id="gsc_sls_CommittedFirmOrderQuantityDetail" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Committed Firm Order Quantity Detail" OriginalName="Committed Firm Order Quantity Detail" Description="" id="gsc_sls_CommittedFirmOrderQuantityDetail" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Quote" OriginalName="Quote" Description="Formal offer for products and/or services, proposed at specific prices and related payment terms, which is sent to a prospective customer." id="Quote" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Quote" OriginalName="Quote" Description="Formal offer for products and/or services, proposed at specific prices and related payment terms, which is sent to a prospective customer." id="Quote" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Quote" OriginalName="Quote" Description="Formal offer for products and/or services, proposed at specific prices and related payment terms, which is sent to a prospective customer." id="Quote" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Opportunity" OriginalName="Opportunity" Description="Potential revenue-generating event, or sale to an account, which needs to be tracked through a sales process to completion." id="Opportunity" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Opportunity" OriginalName="Opportunity" Description="Potential revenue-generating event, or sale to an account, which needs to be tracked through a sales process to completion." id="Opportunity" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Opportunity" OriginalName="Opportunity" Description="Potential revenue-generating event, or sale to an account, which needs to be tracked through a sales process to completion." id="Opportunity" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Part Applicable Vehicle Model" OriginalName="Part Applicable Vehicle Model" Description="" id="gsc_svc_partapplicablevehiclemodel" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Part Applicable Vehicle Model" OriginalName="Part Applicable Vehicle Model" Description="" id="gsc_svc_partapplicablevehiclemodel" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Part Applicable Vehicle Model" OriginalName="Part Applicable Vehicle Model" Description="" id="gsc_svc_partapplicablevehiclemodel" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Inventory History" OriginalName="Inventory History" Description="" id="gsc_iv_inventoryhistory" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Inventory History" OriginalName="Inventory History" Description="" id="gsc_iv_inventoryhistory" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Inventory History" OriginalName="Inventory History" Description="" id="gsc_iv_inventoryhistory" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Order Planning Detail" OriginalName="Order Planning Detail" Description="" id="gsc_sls_OrderPlanningDetail" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Order Planning Detail" OriginalName="Order Planning Detail" Description="" id="gsc_sls_OrderPlanningDetail" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Order Planning Detail" OriginalName="Order Planning Detail" Description="" id="gsc_sls_OrderPlanningDetail" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Vehicle Base Model" OriginalName="Vehicle Base Model" Description="" id="gsc_iv_VehicleBaseModel" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Vehicle Base Model" OriginalName="Vehicle Base Model" Description="" id="gsc_iv_VehicleBaseModel" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Vehicle Base Model" OriginalName="Vehicle Base Model" Description="" id="gsc_iv_VehicleBaseModel" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Purchase Order Detail" OriginalName="Purchase Order Detail" Description="" id="gsc_cmn_PurchaseOrderItemDetails" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Purchase Order Detail" OriginalName="Purchase Order Detail" Description="" id="gsc_cmn_PurchaseOrderItemDetails" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Purchase Order Detail" OriginalName="Purchase Order Detail" Description="" id="gsc_cmn_PurchaseOrderItemDetails" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Product Association" OriginalName="Product Association" Description="" id="ProductAssociation" processed="false">
+    </savedQuery>
+    <entityRibbon LocalizedName="Product Association" OriginalName="Product Association" Description="" id="ProductAssociation" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Body Type" OriginalName="Body Type" Description="" id="gsc_sls_BodyType" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Body Type" OriginalName="Body Type" Description="" id="gsc_sls_BodyType" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Body Type" OriginalName="Body Type" Description="" id="gsc_sls_BodyType" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Vehicle Adjustment/Variance Entry Detail" OriginalName="Vehicle Adjustment/Variance Entry Detail" Description="" id="gsc_sls_AdjustmentVarianceDetail" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Vehicle Adjustment/Variance Entry Detail" OriginalName="Vehicle Adjustment/Variance Entry Detail" Description="" id="gsc_sls_AdjustmentVarianceDetail" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Vehicle Adjustment/Variance Entry Detail" OriginalName="Vehicle Adjustment/Variance Entry Detail" Description="" id="gsc_sls_AdjustmentVarianceDetail" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Charges" OriginalName="Charges" Description="" id="gsc_cmn_Charges" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Charges" OriginalName="Charges" Description="" id="gsc_cmn_Charges" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Charges" OriginalName="Charges" Description="" id="gsc_cmn_Charges" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Area Group" OriginalName="Area Group" Description="" id="gsc_svc_areagroup" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Area Group" OriginalName="Area Group" Description="" id="gsc_svc_areagroup" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Area Group" OriginalName="Area Group" Description="" id="gsc_svc_areagroup" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Vehicle Count Breakdown" OriginalName="Vehicle Count Breakdown" Description="" id="gsc_iv_VehicleCountBreakdown" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Vehicle Count Breakdown" OriginalName="Vehicle Count Breakdown" Description="" id="gsc_iv_VehicleCountBreakdown" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Vehicle Count Breakdown" OriginalName="Vehicle Count Breakdown" Description="" id="gsc_iv_VehicleCountBreakdown" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Invoice Charge" OriginalName="Invoice Charge" Description="" id="gsc_cmn_InvoiceCharge" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Invoice Charge" OriginalName="Invoice Charge" Description="" id="gsc_cmn_InvoiceCharge" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Invoice Charge" OriginalName="Invoice Charge" Description="" id="gsc_cmn_InvoiceCharge" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Approver Setup" OriginalName="Approver Setup" Description="" id="gsc_cmn_ApproverSetup" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Approver Setup" OriginalName="Approver Setup" Description="" id="gsc_cmn_ApproverSetup" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Approver Setup" OriginalName="Approver Setup" Description="" id="gsc_cmn_ApproverSetup" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="ID Request" OriginalName="ID Request" Description="" id="gsc_cmn_IDRequest" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="ID Request" OriginalName="ID Request" Description="" id="gsc_cmn_IDRequest" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="ID Request" OriginalName="ID Request" Description="" id="gsc_cmn_IDRequest" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Color" OriginalName="Color" Description="" id="gsc_iv_Color" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Color" OriginalName="Color" Description="" id="gsc_iv_Color" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Color" OriginalName="Color" Description="" id="gsc_iv_Color" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Vehicle Ownership Transfer" OriginalName="Vehicle Ownership Transfer" Description="" id="gsc_vehicleownershiptransfer" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Vehicle Ownership Transfer" OriginalName="Vehicle Ownership Transfer" Description="" id="gsc_vehicleownershiptransfer" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Vehicle Ownership Transfer" OriginalName="Vehicle Ownership Transfer" Description="" id="gsc_vehicleownershiptransfer" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Vehicle Transfer" OriginalName="Vehicle Transfer" Description="" id="gsc_iv_VehicleTransfer" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Vehicle Transfer" OriginalName="Vehicle Transfer" Description="" id="gsc_iv_VehicleTransfer" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Vehicle Transfer" OriginalName="Vehicle Transfer" Description="" id="gsc_iv_VehicleTransfer" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Vehicle Accessory" OriginalName="Vehicle Accessory" Description="" id="gsc_sls_VehicleAccessory" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Vehicle Accessory" OriginalName="Vehicle Accessory" Description="" id="gsc_sls_VehicleAccessory" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Vehicle Accessory" OriginalName="Vehicle Accessory" Description="" id="gsc_sls_VehicleAccessory" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Price List" OriginalName="Price List" Description="" id="PriceLevel" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Price List" OriginalName="Price List" Description="" id="PriceLevel" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Price List" OriginalName="Price List" Description="" id="PriceLevel" processed="false">
+    </entityRibbon>
+    <entityRibbon LocalizedName="Unit Group" OriginalName="Unit Group" Description="" id="UoMSchedule" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Product Quantity" OriginalName="Product Quantity" Description="" id="gsc_iv_ProductQuantity" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Product Quantity" OriginalName="Product Quantity" Description="" id="gsc_iv_ProductQuantity" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Product Quantity" OriginalName="Product Quantity" Description="" id="gsc_iv_ProductQuantity" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Order Discount" OriginalName="Order Discount" Description="" id="gsc_cmn_SalesOrderDiscount" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Order Discount" OriginalName="Order Discount" Description="" id="gsc_cmn_SalesOrderDiscount" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Order Discount" OriginalName="Order Discount" Description="" id="gsc_cmn_SalesOrderDiscount" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Post-Delivery Administration" OriginalName="Post-Delivery Administration" Description="" id="gsc_cmn_PostDeliveryAdministration" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Post-Delivery Administration" OriginalName="Post-Delivery Administration" Description="" id="gsc_cmn_PostDeliveryAdministration" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Post-Delivery Administration" OriginalName="Post-Delivery Administration" Description="" id="gsc_cmn_PostDeliveryAdministration" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Vehicle Count Schedule" OriginalName="Vehicle Count Schedule" Description="" id="gsc_iv_VehicleCountSchedule" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Vehicle Count Schedule" OriginalName="Vehicle Count Schedule" Description="" id="gsc_iv_VehicleCountSchedule" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Vehicle Count Schedule" OriginalName="Vehicle Count Schedule" Description="" id="gsc_iv_VehicleCountSchedule" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Vehicle Make" OriginalName="Vehicle Make" Description="" id="gsc_iv_VehicleMake" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Vehicle Make" OriginalName="Vehicle Make" Description="" id="gsc_iv_VehicleMake" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Vehicle Make" OriginalName="Vehicle Make" Description="" id="gsc_iv_VehicleMake" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Survey Transaction" OriginalName="Survey Transaction" Description="" id="gsc_cmn_SurveyTransactions" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Survey Transaction" OriginalName="Survey Transaction" Description="" id="gsc_cmn_SurveyTransactions" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Survey Transaction" OriginalName="Survey Transaction" Description="" id="gsc_cmn_SurveyTransactions" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Vehicle Adjustment/Variance Entry" OriginalName="Vehicle Adjustment/Variance Entry" Description="" id="gsc_sls_VehicleAdjustmentVarianceEntry" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Vehicle Adjustment/Variance Entry" OriginalName="Vehicle Adjustment/Variance Entry" Description="" id="gsc_sls_VehicleAdjustmentVarianceEntry" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Vehicle Adjustment/Variance Entry" OriginalName="Vehicle Adjustment/Variance Entry" Description="" id="gsc_sls_VehicleAdjustmentVarianceEntry" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="zTBD_Receiving Transaction" OriginalName="zTBD_Receiving Transaction" Description="" id="gsc_svc_receivingtransaction" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="zTBD_Receiving Transaction" OriginalName="zTBD_Receiving Transaction" Description="" id="gsc_svc_receivingtransaction" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="zTBD_Receiving Transaction" OriginalName="zTBD_Receiving Transaction" Description="" id="gsc_svc_receivingtransaction" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="zTBD_Country" OriginalName="zTBD_Country" Description="Country" id="gsc_syscountry" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="zTBD_Country" OriginalName="zTBD_Country" Description="Country" id="gsc_syscountry" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="zTBD_Country" OriginalName="zTBD_Country" Description="Country" id="gsc_syscountry" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="PO Product" OriginalName="PO Product" Description="" id="gsc_svc_poproduct" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="PO Product" OriginalName="PO Product" Description="" id="gsc_svc_poproduct" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="PO Product" OriginalName="PO Product" Description="" id="gsc_svc_poproduct" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Parts Bulletin" OriginalName="Parts Bulletin" Description="" id="gsc_svc_partsbulletin" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Parts Bulletin" OriginalName="Parts Bulletin" Description="" id="gsc_svc_partsbulletin" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Parts Bulletin" OriginalName="Parts Bulletin" Description="" id="gsc_svc_partsbulletin" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Vehicle Count Entry Details" OriginalName="Vehicle Count Entry Details" Description="" id="gsc_iv_VehicleCountEntryDetails" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Vehicle Count Entry Details" OriginalName="Vehicle Count Entry Details" Description="" id="gsc_iv_VehicleCountEntryDetails" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Vehicle Count Entry Details" OriginalName="Vehicle Count Entry Details" Description="" id="gsc_iv_VehicleCountEntryDetails" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Shipping Claim" OriginalName="Shipping Claim" Description="" id="gsc_sls_ShippingClaim" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Shipping Claim" OriginalName="Shipping Claim" Description="" id="gsc_sls_ShippingClaim" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Shipping Claim" OriginalName="Shipping Claim" Description="" id="gsc_sls_ShippingClaim" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="PO Type Charge" OriginalName="PO Type Charge" Description="" id="gsc_svc_POTypeCharge" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="PO Type Charge" OriginalName="PO Type Charge" Description="" id="gsc_svc_POTypeCharge" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="PO Type Charge" OriginalName="PO Type Charge" Description="" id="gsc_svc_POTypeCharge" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Part Bin" OriginalName="Part Bin" Description="" id="gsc_svc_partbin" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Part Bin" OriginalName="Part Bin" Description="" id="gsc_svc_partbin" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Part Bin" OriginalName="Part Bin" Description="" id="gsc_svc_partbin" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Class Maintenance" OriginalName="Class Maintenance" Description="" id="gsc_cmn_ClassMaintenance" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Class Maintenance" OriginalName="Class Maintenance" Description="" id="gsc_cmn_ClassMaintenance" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Class Maintenance" OriginalName="Class Maintenance" Description="" id="gsc_cmn_ClassMaintenance" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Vehicle Count Entry" OriginalName="Vehicle Count Entry" Description="" id="gsc_iv_VehicleCountEntry" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Vehicle Count Entry" OriginalName="Vehicle Count Entry" Description="" id="gsc_iv_VehicleCountEntry" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Vehicle Count Entry" OriginalName="Vehicle Count Entry" Description="" id="gsc_iv_VehicleCountEntry" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Sales Return Detail" OriginalName="Sales Return Detail" Description="" id="gsc_iv_SalesReturnDetail" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Sales Return Detail" OriginalName="Sales Return Detail" Description="" id="gsc_iv_SalesReturnDetail" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Sales Return Detail" OriginalName="Sales Return Detail" Description="" id="gsc_iv_SalesReturnDetail" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Bin" OriginalName="Bin" Description="" id="gsc_iv_Bin" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Bin" OriginalName="Bin" Description="" id="gsc_iv_Bin" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Bin" OriginalName="Bin" Description="" id="gsc_iv_Bin" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Receiving Transaction Detail" OriginalName="Receiving Transaction Detail" Description="" id="gsc_cmn_ReceivingTransactionDetail" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Receiving Transaction Detail" OriginalName="Receiving Transaction Detail" Description="" id="gsc_cmn_ReceivingTransactionDetail" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Receiving Transaction Detail" OriginalName="Receiving Transaction Detail" Description="" id="gsc_cmn_ReceivingTransactionDetail" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Country" OriginalName="Country" Description="" id="gsc_cmn_Country" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Country" OriginalName="Country" Description="" id="gsc_cmn_Country" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Country" OriginalName="Country" Description="" id="gsc_cmn_Country" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Insurance" OriginalName="Insurance" Description="" id="gsc_cmn_Insurance" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Insurance" OriginalName="Insurance" Description="" id="gsc_cmn_Insurance" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Insurance" OriginalName="Insurance" Description="" id="gsc_cmn_Insurance" processed="false">
+    </entityRibbon>
+    <entityRibbon LocalizedName="Web Page" OriginalName="Web Page" Description="Web Page" id="Adx_webpage" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Price List Item History" OriginalName="Price List Item History" Description="" id="gsc_svc_PriceListItemHistory" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Price List Item History" OriginalName="Price List Item History" Description="" id="gsc_svc_PriceListItemHistory" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Price List Item History" OriginalName="Price List Item History" Description="" id="gsc_svc_PriceListItemHistory" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="zTBD_Prospect" OriginalName="zTBD_Prospect" Description="" id="gsc_sls_Prospect" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="zTBD_Prospect" OriginalName="zTBD_Prospect" Description="" id="gsc_sls_Prospect" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="zTBD_Prospect" OriginalName="zTBD_Prospect" Description="" id="gsc_sls_Prospect" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Invoice Monthly Amortization" OriginalName="Invoice Monthly Amortization" Description="" id="gsc_sls_InvoiceMonthlyAmortization" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Invoice Monthly Amortization" OriginalName="Invoice Monthly Amortization" Description="" id="gsc_sls_InvoiceMonthlyAmortization" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Invoice Monthly Amortization" OriginalName="Invoice Monthly Amortization" Description="" id="gsc_sls_InvoiceMonthlyAmortization" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Allocated Vehicle" OriginalName="Allocated Vehicle" Description="" id="gsc_iv_AllocatedVehicle" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Allocated Vehicle" OriginalName="Allocated Vehicle" Description="" id="gsc_iv_AllocatedVehicle" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Allocated Vehicle" OriginalName="Allocated Vehicle" Description="" id="gsc_iv_AllocatedVehicle" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="zTBD_Province" OriginalName="zTBD_Province" Description="Province" id="gsc_sysprovince" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="zTBD_Province" OriginalName="zTBD_Province" Description="Province" id="gsc_sysprovince" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="zTBD_Province" OriginalName="zTBD_Province" Description="Province" id="gsc_sysprovince" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Committed Firm Order Quantity" OriginalName="Committed Firm Order Quantity" Description="" id="gsc_sls_CommittedFirmOrderQuantity" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Committed Firm Order Quantity" OriginalName="Committed Firm Order Quantity" Description="" id="gsc_sls_CommittedFirmOrderQuantity" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Committed Firm Order Quantity" OriginalName="Committed Firm Order Quantity" Description="" id="gsc_sls_CommittedFirmOrderQuantity" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="zTBD_Vendor" OriginalName="zTBD_Vendor" Description="" id="gsc_cmn_Vendor" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="zTBD_Vendor" OriginalName="zTBD_Vendor" Description="" id="gsc_cmn_Vendor" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="zTBD_Vendor" OriginalName="zTBD_Vendor" Description="" id="gsc_cmn_Vendor" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Part Assembly Kit Item" OriginalName="Part Assembly Kit Item" Description="" id="gsc_svc_partassemblykititem" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Part Assembly Kit Item" OriginalName="Part Assembly Kit Item" Description="" id="gsc_svc_partassemblykititem" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Part Assembly Kit Item" OriginalName="Part Assembly Kit Item" Description="" id="gsc_svc_partassemblykititem" processed="false">
+    </entityRibbon>
+    <savedQuery LocalizedName="Vehicle Claim Discount" OriginalName="Vehicle Claim Discount" Description="" id="gsc_sls_VehicleClaimDiscount" processed="false">
+    </savedQuery>
+    <formXml LocalizedName="Vehicle Claim Discount" OriginalName="Vehicle Claim Discount" Description="" id="gsc_sls_VehicleClaimDiscount" processed="false">
+    </formXml>
+    <entityRibbon LocalizedName="Vehicle Claim Discount" OriginalName="Vehicle Claim Discount" Description="" id="gsc_sls_VehicleClaimDiscount" processed="false">
+    </entityRibbon>
+  </entitySubhandlers>
+  <rootComponents>
+    <rootComponent processed="false" />
+  </rootComponents>
+  <dependencies>
+    <dependency processed="false" />
+  </dependencies>
+  <upgradeHandlers>
+    <upgradeHandler id="UpdateSdkMessageIdAttribute" LocalizedName="Transform Package" Description="Transform Package" processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:37:08.32" datetimeticks="636410686283284506" />
+    </upgradeHandler>
+  </upgradeHandlers>
+  <skuHandlers />
+  <validateHandlers>
+    <validateHandler id="XSDValidationHandler" LocalizedName="Package Validation" Description="Validates solution package schema." processed="true">
+      <result result="success" errorcode="0" errortext="" datetime="10:37:12.35" datetimeticks="636410686323597289" />
+    </validateHandler>
+  </validateHandlers>
+</importexportxml>
